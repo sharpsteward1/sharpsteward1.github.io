@@ -1,0 +1,23 @@
+<html>
+<head>
+    <script type="text/javascript">
+        function getQueryString(name) {
+            var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+            var r = window.location.search.substr(1).match(reg);
+            if (r != null) return unescape(r[2]); return null;
+        }
+      var name=(getQueryString("name"));
+        if(name!=null){
+
+        }
+      
+
+
+    </script>
+</head>
+<body>
+    hello world
+   
+</body>
+
+</html>
